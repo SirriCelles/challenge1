@@ -1,0 +1,138 @@
+
+body {
+    background-color: #d6e0f0;
+    /* opacity: 0.5; */
+}
+
+#main-div {
+    margin: 0px 200px;
+   
+    background-color: #f9f9f9;
+   /* opacity: 0; */
+}
+@media (max-width: 1000px) {
+    #main-div {
+        margin: 0px 150px;
+    }
+}
+@media (max-width: 860px) {
+    #main-div {
+        margin: 0px 100px;
+    }
+}
+@media (max-width: 720px) {
+    #main-div {
+        margin: 0px 70px;
+    }
+}
+@media (max-width: 560px) {
+    #main-div {
+        margin: 0px 20px;
+    }
+}
+
+#content-section, #comments-section {
+    padding : 20px;
+    margin-bottom: 10px;
+}
+#content-section {
+    padding-bottom: 5px;
+}
+
+#comments-section {
+    padding-bottom: 60px;
+    background-color: #f1f1f1;
+}
+#content-section p {
+    opacity: 0.85;
+}
+#comments-section p {
+    color: #1c2b2d;
+    opacity: 0.98;
+}
+h1 {
+    text-align: center;
+    font-size: 2.5vw;
+}
+.profile-image {
+    float: left;
+    width: 50px;
+    height: auto;
+    border-radius: 100%;
+    /* padding-right: 20px; */
+    margin-right: 20px;
+    white-space: nowrap;
+}
+/* p {
+    line-height: 1;
+} */
+.first-p {
+    padding-top: 5px;
+    /* line-height: 1; */
+}
+
+.name {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #487e95;
+}
+
+.gray-text {
+    color: #968c83;
+    /* font-weight: 600; */
+}
+
+.wrap-text {
+    margin-left: 70px;
+}
+
+#main-image {
+    display: block;
+    width: 100%;
+    /* height: auto; */
+    margin: auto;
+}
+
+.social-icon {
+    width: 15px;
+    height: auto;
+    margin-right: 20px;
+    transform: translateY(3px);
+}
+
+#share-image {
+    height: 1rem;
+    margin: 0px 5px 0px 20px;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+a #reply-p {
+    margin-left: 70px;
+    /* font-weight: bold; */
+    font-size: 1.1rem;
+    color:  #00587a;
+    /* opacity: 1; */
+}
+
+textarea {
+    max-width: 70%;
+}
+
+button {
+    margin-left: 70px;
+    margin-top: 15px;
+    background-color: #4e89ae;
+    height: 30px;
+    border-radius: 5px;
+
+}
+
+button:hover, a {
+    transform: scale(1.05);
+    opacity: 0.8;
+    transform: translateY(1px);
+}
